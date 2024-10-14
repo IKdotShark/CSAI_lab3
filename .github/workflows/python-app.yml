@@ -29,6 +29,13 @@ jobs:
         pytest --junitxml=report.xml --html=report.html --self-contained-html
       continue-on-error: true
 
+    - name: Upload Code Artifact  
+      if: success() 
+      uses: actions/upload-artifact@v3
+      with:
+        name: code-artifact
+        path: . 
+
     - name: Upload Test Results
       uses: actions/upload-artifact@v3
       with:
