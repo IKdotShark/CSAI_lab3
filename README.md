@@ -1,5 +1,6 @@
-# MP-S (Moduling procceses and systems)
+# MP-S (Moduling procceses and systems) `test for actions`
 ## Входные сигналы
+`test for actions`
 * `Card` - данные карты 💳
 * `Bank_confirm` - подтверждение банка ✔
 * `Bank_denied` - отрицательный ответ банка ⛔️
