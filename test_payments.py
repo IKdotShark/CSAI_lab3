@@ -1,5 +1,5 @@
 import pytest
-from lab1 import card_check
+from main import card_check
 
 
 def test_luhn_algorithm():
